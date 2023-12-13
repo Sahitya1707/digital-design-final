@@ -35,9 +35,9 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className="relative">
       <nav className="bg-[#157F7F] w-[100vw] sm:h-12 sm:px-4 fixed ">
-        <div className="sm:flex sm:max-w-4xl sm:mx-auto sm:items-center sm:justify-between sm:h-[100%] w-[100%] ">
+        <div className="sm:flex sm:max-w-5xl sm:mx-auto sm:items-center sm:justify-between sm:h-[100%] w-[100%] ">
           <Link href="/">
             <img
               src="images/logo-1.png"
@@ -48,7 +48,7 @@ const Header = () => {
           <ul
             className={`flex sm:items-center gap-x-3 sm:gap-x-6 uppercase text-xs sm:flex-row flex-col sm:w-[auto] w-[100%] sm:h-[auto]  justify-end ml-2  ${
               state
-                ? "h-[0rem] overflow-hidden "
+                ? "h-[0rem] overflow-hidden transition-all duration-10 ease-in"
                 : "h-[6rem] overflow-auto transition-all duration-150 ease-in"
             }`}
           >
@@ -61,7 +61,7 @@ const Header = () => {
             />
           </ul>
         </div>
-        <div className="h-[3rem]  block sm:hidden ">
+        <div className="h-[3rem] block sm:hidden ">
           {state ? (
             <Menu icon={<CiMenuFries />} handleClick={handleState} />
           ) : null}
