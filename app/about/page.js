@@ -11,7 +11,7 @@ import TextImage from "../components/textImage";
 //         />
 //       </div>
 //       <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
-//         <p className="mb-2 text-sm font-semibold leading-none text-left text-[#d68a27] uppercase">
+//         <p className="mb-2 text-sm font-semibold leading-none text-left text-[#9ECDF9] uppercase">
 //           About Us
 //         </p>
 
@@ -33,16 +33,16 @@ const page = () => {
           <div className="flex items-center mb-8 sm:w-1/2 md:w-5/12">
             <img
               className="rounded-lg shadow-xl"
-              src="https://plus.unsplash.com/premium_photo-1668058723804-d7dcd1ffa4c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              src="https://images.unsplash.com/photo-1550136513-548af4445338?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
           </div>
           <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
-            <p className="mb-2 text-sm font-semibold leading-none text-left text-[#d68a27] uppercase">
-              know your data
+            <p className="mb-2 text-sm font-semibold leading-none text-left text-[#9ECDF9] uppercase">
+              Hurry Up
             </p>
             <h3 className="mt-2 text-2xl sm:text-left md:text-4xl">
-              Optimized For Conversions
+              Get Your Apartment Over Here
             </h3>
             <p className="mt-5 text-lg text-gray-700 text md:text-left">
               Backed by data, these templates have been crafted for ultimate
@@ -55,16 +55,16 @@ const page = () => {
           <div className="flex items-center mb-8 sm:w-1/2 md:w-5/12 sm:order-last">
             <img
               className="rounded-lg shadow-xl"
-              src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+              src="https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
           </div>
           <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
-            <p className="mb-2 text-sm font-semibold leading-none text-left text-[#d68a27] uppercase">
-              Easy to customize
+            <p className="mb-2 text-sm font-semibold leading-none text-left text-[#9ECDF9] uppercase">
+              come fast
             </p>
             <h3 className="mt-2 text-2xl sm:text-left md:text-4xl">
-              Make It Your Own
+              Top Of The World
             </h3>
             <p className="mt-5 text-lg text-gray-700 text md:text-left">
               All templates and components are fully customizable. You can use
