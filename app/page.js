@@ -14,7 +14,7 @@ const page = () => {
     <>
       <section className="bg-[url('../public/images/homepage.jpg')] bg-cover sm:h-[100vh] w-[100%] flex justify-center items-center px-3 h-[70vh] ">
         <div className="sm:mt-4 sm:w-[80%]">
-          <h1 className="uppercase sm:text-sm text-[#9ECDF9] tracking-wider font-semibold w-[90%] text-[0.7rem]">
+          <h1 className="uppercase sm:text-sm text-[#9ECDF9] tracking-wider font-semibold w-[90%] text-[0.7rem] heading-1">
             Grandeur Homes: Elevating Your Living Experience with Maison Chaise
           </h1>
           <p className="sm:text-[0.7rem] w-[80%] mt-2 sm:w-[80%] text-[0.6rem] text-white tracking-wide">
